@@ -19,10 +19,10 @@ body {
 }
 .display-1 {
   font-family: 'ELIAS';
-  font-size: 10rem;
+  font-size: 9rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 16rem;
+  font-size: 14.4rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -32,11 +32,11 @@ body {
   font-size: 6.4rem;
 }
 .display-4 {
-  font-family: 'WINGDNG2';
-  font-size: 2rem;
+  font-family: 'ELIAS';
+  font-size: 8rem;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 3.2rem;
+  font-size: 12.8rem;
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
@@ -59,9 +59,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 8rem;
-    font-size: calc( 4.1499999999999995rem + (10 - 4.1499999999999995) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (4.1499999999999995rem + (10 - 4.1499999999999995) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 7.2rem;
+    font-size: calc( 3.8rem + (9 - 3.8) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (3.8rem + (9 - 3.8) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 3.2rem;
@@ -69,9 +69,9 @@ body {
     line-height: calc( 1.4 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 6.4rem;
+    font-size: calc( 3.45rem + (8 - 3.45) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (3.45rem + (8 - 3.45) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.2rem;
@@ -130,7 +130,7 @@ body {
   border-radius: 3px;
 }
 .bg-primary {
-  background-color: #f11032 !important;
+  background-color: #c4bc3b !important;
 }
 .bg-success {
   background-color: #073b4c !important;
@@ -146,8 +146,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #f11032 !important;
-  border-color: #f11032 !important;
+  background-color: #c4bc3b !important;
+  border-color: #c4bc3b !important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
@@ -155,14 +155,14 @@ body {
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff !important;
-  background-color: #ab0a22 !important;
-  border-color: #ab0a22 !important;
+  background-color: #898429 !important;
+  border-color: #898429 !important;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #ab0a22 !important;
-  border-color: #ab0a22 !important;
+  background-color: #898429 !important;
+  border-color: #898429 !important;
 }
 .btn-secondary,
 .btn-secondary:active {
@@ -310,22 +310,22 @@ body {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background: none;
-  border-color: #92091d;
-  color: #92091d;
+  border-color: #767123;
+  color: #767123;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #f11032;
-  border-color: #f11032;
+  background-color: #c4bc3b;
+  border-color: #c4bc3b;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #f11032 !important;
-  border-color: #f11032 !important;
+  background-color: #c4bc3b !important;
+  border-color: #c4bc3b !important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
@@ -462,7 +462,7 @@ body {
   border-color: #ffffff;
 }
 .text-primary {
-  color: #f11032 !important;
+  color: #c4bc3b !important;
 }
 .text-secondary {
   color: #f11032 !important;
@@ -487,7 +487,7 @@ body {
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #92091d !important;
+  color: #767123 !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
@@ -534,8 +534,8 @@ a.text-black:focus {
   box-shadow: none !important;
 }
 .mbr-gallery-filter li.active .btn {
-  background-color: #f11032;
-  border-color: #f11032;
+  background-color: #c4bc3b;
+  border-color: #c4bc3b;
   color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
@@ -549,11 +549,11 @@ a.text-black:focus {
 }
 a,
 a:hover {
-  color: #f11032;
+  color: #c4bc3b;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #fcd1d7;
+  color: #e2dd9d;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -670,7 +670,7 @@ blockquote {
   padding: 10px 0 10px 20px;
   font-size: 1.09rem;
   position: relative;
-  border-color: #f11032;
+  border-color: #c4bc3b;
   border-width: 3px;
 }
 ul,
@@ -720,7 +720,7 @@ pre {
   text-align: center;
   position: relative;
   border: 2px solid #c0a375;
-  border-color: #f11032;
+  border-color: #c4bc3b;
   color: #232323;
   cursor: pointer;
 }
@@ -731,7 +731,7 @@ pre {
 }
 .btn-social:hover {
   color: #fff;
-  background: #f11032;
+  background: #c4bc3b;
 }
 .btn-social + .btn {
   margin-left: .1rem;
@@ -739,11 +739,11 @@ pre {
 /* Footer */
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #f11032;
+  background: #c4bc3b;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #f11032;
+  color: #c4bc3b;
 }
 /* Headers*/
 .offset-1 {
@@ -2866,6 +2866,7 @@ body {
 .cid-r7HMERmEJc .mbr-text,
 .cid-r7HMERmEJc .mbr-section-btn {
   text-align: right;
+  color: #51cc19;
 }
 .cid-r7HMERmEJc .mbr-text,
 .cid-r7HMERmEJc .mbr-section-btn B {
