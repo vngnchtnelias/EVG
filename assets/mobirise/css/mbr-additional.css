@@ -32,11 +32,11 @@ body {
   font-size: 6.4rem;
 }
 .display-4 {
-  font-family: 'ELIAS';
-  font-size: 9rem;
+  font-family: 'WINGDNG2';
+  font-size: 2rem;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 14.4rem;
+  font-size: 3.2rem;
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
@@ -69,9 +69,9 @@ body {
     line-height: calc( 1.4 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 7.2rem;
-    font-size: calc( 3.8rem + (9 - 3.8) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (3.8rem + (9 - 3.8) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.2rem;
@@ -1287,6 +1287,8 @@ body {
   display: none;
 }
 .cid-r9HYj6lDFU {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-image: url("../../../assets/images/19932211-947513235390310-4879836151159980032-n.jpg");
 }
 .cid-r9HYj6lDFU H1 {
@@ -1547,6 +1549,8 @@ body {
   text-align: right;
 }
 .cid-r6hbCdJDdm {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-image: url("../../../assets/images/18889205-1056767057756352-3764434359864524800-n.jpg");
 }
 .cid-r6hbCdJDdm H1 {
@@ -1564,7 +1568,7 @@ body {
   color: #f11032;
 }
 .cid-r6i0NknV1U {
-  padding-top: 120px;
+  padding-top: 75px;
   padding-bottom: 120px;
   background: linear-gradient(45deg, #ffffff, #ffffff);
 }
@@ -2127,6 +2131,8 @@ body {
   transition: 0.2s background ease-in-out;
 }
 .cid-r6i3LBGFRW {
+  padding-top: 60px;
+  padding-bottom: 135px;
   background-image: url("../../../assets/images/14712127-1108275145927601-7006665821124558848-n.jpg");
 }
 .cid-r6i3LBGFRW H1 {
@@ -2822,25 +2828,6 @@ body {
   opacity: 0.8;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
-}
-.cid-r7HMERmEJc {
-  background-image: url("../../../assets/images/background.jpg");
-}
-.cid-r7HMERmEJc H1 {
-  color: #f7ed4a;
-  text-align: center;
-}
-.cid-r7HMERmEJc DIV {
-  color: #f7ed4a;
-}
-.cid-r7HMERmEJc .mbr-text,
-.cid-r7HMERmEJc .mbr-section-btn {
-  text-align: right;
-  color: #51cc19;
-}
-.cid-r7HMERmEJc .mbr-text,
-.cid-r7HMERmEJc .mbr-section-btn B {
-  color: #51cc19;
 }
 .cid-rhvJRzo5qY {
   padding-top: 60px;
@@ -3710,4 +3697,11 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
+}
+.cid-rhw5fWYEfu {
+  background-image: url("../../../assets/images/background5.jpg");
+}
+.cid-rhw5fWYEfu H1 {
+  color: #51cc19;
+  text-align: right;
 }
