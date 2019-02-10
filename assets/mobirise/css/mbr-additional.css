@@ -32,11 +32,11 @@ body {
   font-size: 6.4rem;
 }
 .display-4 {
-  font-family: 'WINGDNG2';
-  font-size: 2rem;
+  font-family: 'ELIAS';
+  font-size: 9rem;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 3.2rem;
+  font-size: 14.4rem;
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
@@ -69,9 +69,9 @@ body {
     line-height: calc( 1.4 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 7.2rem;
+    font-size: calc( 3.8rem + (9 - 3.8) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (3.8rem + (9 - 3.8) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.2rem;
@@ -1286,8 +1286,10 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
-.cid-rhwjy4uIn4 {
-  background-image: url("../../../assets/images/woops-1.jpg");
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .card-wrapper {
+    flex: auto!important;
+  }
 }
 .cid-r6hbCdJDdm {
   padding-top: 60px;
@@ -1308,8 +1310,18 @@ body {
 .cid-r6hbCdJDdm B {
   color: #f11032;
 }
+.cid-rhGR84RLqR {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #ffffff;
+}
 .cid-rhwqp8rio8 {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: linear-gradient(45deg, #ffffff, #ffffff);
+}
+.cid-rhwjy4uIn4 {
+  background-image: url("../../../assets/images/woops-1.jpg");
 }
 .cid-r90wIJZS2s {
   padding-top: 30px;
